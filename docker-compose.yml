@@ -9,3 +9,5 @@ services:
             - SYS_PTRACE
         ports:
             - "23946:23946"
+        volumes:
+            - ./CTF:/ctf
